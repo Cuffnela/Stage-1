@@ -1,102 +1,20 @@
-<!DOCTYPE html>
+<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
+text that will be ignored by the computer! -->
+<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
 <html>
-
-<head>
-  <title>Laurie Cuffney Stage 0 Notes</title>
-</head>
-
-<body>
-  <h1>Programming NanoDegree Notes </h1>
-    <div class="Lesson">
-    <h2> Lesson 1: The Basics of the Web and HTML</h2>
-
-      <div class="topic"
-        <h3> Overview </h3>
-          <b> HTML: </b> Hyper Text Markup Language
-          <p> People connect to the Internet through a <em>browser</em>. Many
-            different file types are present on the Internet but most are <em>
-              HTML </em> documents. Your computer sends <em> HTTP Requests</em>
-              to servers and receives the appropriate HTML document to display a
-              web page. <img src="http://i63.tinypic.com/b3rig3.jpg" alt="How it
-              Works HTTP and the Internet Image Unavailable"></a>
-          </p>
-      </div>
-
-      <div class="topic">
-        <h3>Document Formatting and Syntax</h3>
-          <p> In HTML text is format using <em> tags </em>. Most tags consist of
-            an opening tag, &lt;name&gt;, and a closing tag, &lt;/name&gt;. These
-             tags follow the format &lt;          name&gt; context &lt;/name&gt;.
-              <em>Void tags</em> are an exception to this rule. Void tags do not
-              have context and thus do not need a closing tag. Examples of void
-              tags are &lt;br&gt; (line break), &lt;img&gt; (image). HTML treats
-              all whitespace as a single space unless provided additional
-              information. For example <pre> Hello        World!</pre>
-              appears as Hello      World! ignoring all the spaces between
-               the two words. We can use the line break to split lines up and
-                multiple line breaks can be used to create more space.
-                HTML documents should be readable by the computer and people.
-                 Indenting sections is helpful for readability. Documents should
-                  be follow the basic formatting:
-                  <br>
-                <pre> &lt;!DOCTYPE HTML&gt;  <!-- is there a better way to format this?
-                  I would rather be able to indent for readbility.-->
-  &lt;html&gt;
-    &lt;head&gt;
-      &lt;title&gt; <em>Title</em> &lt;/title&gt;
-    &lt;head&gt;
-    &lt;body&gt;
-      <em>content</em>
-    &lt;/body&gt;
-  &lt;/html&gt;
-            </pre>
-          </p>
-      </div><!-- End Formatting div -->
-
-      <div class="topic"> <!-- Begin Tag div -->
-        <h3>Tags</h3>
-          <p> Bold: &lt;b&gt;, Makes text <b>bold</b>.
-          </p>
-          <p>Italics: &lt;em&gt;, Makes text <em>italicised</em>.
-            Tag is short for emphasis.
-          </p>
-          <p>HTML Attributes: Some tags have attributes which appear in the
-            opening tag. &lt;tag AATR="value"&gt; contents &lt;tag&gt;.
-            We see this with links and images.
-          </p>
-          <p>Link: Anchor &lt;a&gt;, Attribute href &lt;a href=<em>"url"</em>&gt;
-            context&lt;/a&gt;. This tag makes the context a click able link to
-            the referenced page. <a href="https://www.wolframalpha.com/"> This
-              link will take you to wolframalpha.</a>
-          </p>
-          <p>
-          Image: &lt;img&gt;, Attribute src (source) &lt;img src= <em>"url"</em>
-          alt=<em>"text"</em> &gt;. Alt text is shown if the image fails to load.
-           Appears inline with text.
-          </p>
-      </div> <!-- End Tags div -->
-
-      <div class="topic"> <!-- Begin Inline div -->
-        <h3> Inline vs. Block </h3>
-          Elements in HTML are either <b>inline</b> or <b>block</b>. Inline
-          elements appear in the same line as the text are are not seperated out.
-          Block elements are put inside an invisible box. The properties of this
-           invisible box can be edited with additional HTML commands.
-          <pre>
-          <b>Inline</b>        <b>Block</b>
-           &lt;span&gt;     &lt;div&gt;
-           &lt;img&gt;      &lt;p&gt;
-           &lt;a&gt;        &lt;form&gt;
-           &lt;br&gt;
-           &lt;b&gt;
-           &lt;em&gt;
-           &lt;html&gt;
-           &lt;strong&gt;
-           </pre>
-       </div> <!-- End of Inline div -->
-
-      </div> <!-- End of Lesson 1 div -->
-    <h2> Lesson 2:Creating a Structured Document with HTML </h2>
-</body>
-
+  <head> <!-- The head tag includes important information about the page -->
+    <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
+    This will allow the browser to display certain characters (such as non-Roman letters) correctly.
+    You should include this line in the head of all of your webpages. -->
+    <title>Ms. Cuffney's Math Classes</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
+    <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
+  </head>
 </html>
+
+<body> <!-- The body tag is where the "flesh" of your HTML goes -->
+  <!-- Write your HTML here -->
+  <div class="header">
+      <h1> Ms. Cuffney's Math Classes </h1>
+      <span class="sitemapLink">Math 1</span> <span class="sitemapLink">Math 2 </span>
+      <span class="sitemapLink">Honors Math 3 </span>
+</body>
