@@ -1,0 +1,32 @@
+/* This stylesheet handles all css for the navigation bar*/
+.navbar{
+  background-color: #00182C;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003F73;
+  align-items: stretch;
+}
+li{
+  float: left;
+  font-size: 20pt;
+  font-weight: bold;
+}
+li a:hover{
+  background-color: #00BA6A;
+  color: #FFF;
+}
+li a{
+  display: block;
+  background-color: #003F73;
+  color: #3EF7A8;
+  padding: 10px 20px;
+}
+.active{
+  background-color: #FFD700;
+  color: #000;
+}
