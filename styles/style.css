@@ -1,0 +1,75 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this. */
+
+*{
+  background-color: #FFFBD9;
+  /*outline: 5px solid red;*/
+}
+.header{
+  background-color: #2C0028;
+  /*border-radius: 40px;*/
+  padding: 5px;
+  margin: 2%;
+  text-align: center;
+  font-size: 200%;
+  color: #FFFFFF;
+}
+
+.section{
+  display: flex;
+  margin: 5%;
+  border: 5px solid #90C0DF;
+  border-radius: 10px;
+}
+.section div{
+  flex-basis: 100%;
+  padding: 10px;
+  background-color: #90C0DF;
+}
+.description{
+    text-align: justify;
+}
+
+/* The following contains styles specific to the home page*/
+.imageCollage{
+  display: flex;
+  justify-content: center;
+}
+.imageStack{
+  margin: 0;
+}
+.homeImage{
+  opacity: 0.8;
+  height: 270px;
+}
+.homeImage:hover{
+  opacity: 1.0;
+}
+
+/* tag sytles */
+a{
+  text-decoration: none;
+}
+
+h1{
+  background-color: inherit;
+  font-weight: bolder;
+}
+h2{
+  background: rgb(113,0,103);
+  background: rgba(1,25,41,0.4);
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+h3{
+  margin: 0;
+  background-color: #011929;
+  padding: 0px 20px;
+  font-size: 200%;
+  color: #FFFFFF;
+}
