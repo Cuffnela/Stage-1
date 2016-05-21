@@ -11,46 +11,74 @@ if you need a refresher about how to do this. */
   font-family: sans-serif;
   margin: 0;
 }
+/*top of page on all pages*/
 .header{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
   background-color: #3399CC;
-  padding: 5%;
+  padding: 2%;
   text-align: center;
   font-size: 200%;
   color: #FFF;
 }
-
+/*links in header*/
+.sidebar{
+  margin: 3px;
+  justify-content: flex-end;
+}
+.container{
+  background-color: inherit;
+}
+.externalLink{
+  background-color: transparent;
+}
+/* stylizes each external link based on where it links to*/
+/*octocat*/
+#octocat{
+  width: 50px;
+  height: auto;
+}
+#wordpress{
+  width:100px;
+  height: auto;
+}
+#resume{
+  font-weight: bold;
+  font-size: large;
+  color: #433623;
+}
+/*sections are used with in body of pages*/
 .section{
   display: flex;
   margin: 3% 5% 5%;
-  /*border: 5px solid #003366;
-  border-radius: 10px;*/
 }
 .section div{
   flex-basis: 100%;
   padding: 10px;
-  /*background-color: #003366;*/
 }
 .description{
     text-align: justify;
 }
 
 /* The following contains styles specific to the home page*/
-.imageCollage{
-  display: flex;
-  justify-content: center;
-  margin: 30px;
-}
-.imageStack{
-  margin: 0;
-}
-.homeImage{
-  opacity: 0.9;
-  height: 270px;
-}
-.homeImage:hover{
-  opacity: 1;
-}
+  .imageContainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .imageStack{
+    margin: 0;
+  }
+  .homeImage{
+    opacity: 0.9;
+    height: 270px;
+  }
+  .homeImage:hover{
+    opacity: 1;
+  }
 
+/*css that allows image resize with window resize*/
 .image{
   width: 100%;
   height: 100%;
@@ -60,32 +88,40 @@ if you need a refresher about how to do this. */
 }
 
 /* tag sytles */
-a{
-  text-decoration: none;
-}
-
-h1{
-  background-color: inherit;
-  font-weight: bolder;
-  margin: 0;
-}
-h2{
-  background: #003366;
-  padding: 10px;
-  margin: 0 0 10px 0;
-  color: #FFF;
-  text-align: center;
-}
-
-/*home page headers*/
-h3{
-  margin: 0;
-  background-color: #330000;
-  padding: 2px 20px;
-  font-size: 200%;
-  color: #FFF;
-}
-p{
-  background-color: inherit;
-  color: #330000;
-}
+  /* links*/
+  a{
+    text-decoration: none;
+  }
+  /*top headings on pages*/
+  h1{
+    display: flex;
+    background-color: inherit;
+    font-weight: bolder;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  /* used on sections in page contect*/
+  h2{
+    background: #003366;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    color: #FFF;
+    text-align: center;
+  }
+  /*used on home page only for text under images*/
+  h3{
+    margin: 0;
+    background-color: #330000;
+    padding: 2px 20px;
+    font-size: 200%;
+    color: #FFF;
+  }
+  /*text with in sections on pages*/
+  p{
+    background-color: inherit;
+    color: #330000;
+  }
+  img{
+    background-color: transparent;
+  }
