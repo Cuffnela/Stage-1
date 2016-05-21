@@ -1,6 +1,6 @@
 /* This stylesheet handles all css for the navigation bar*/
 .navbar{
-  background-color: #00182C;
+  background-color: inherit;
 
 }
 ul{
@@ -8,7 +8,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #003F73;
+  background-color: #330000;
   align-items: stretch;
 }
 li{
@@ -17,16 +17,16 @@ li{
   font-weight: bold;
 }
 li a:hover{
-  background-color: #00BA6A;
-  color: #FFF;
+  background-color: #FFF;
+  color: #000;
 }
 li a{
   display: block;
-  background-color: #003F73;
-  color: #3EF7A8;
+  background-color: #330000;
+  color: #CDB99C;
   padding: 10px 20px;
 }
 .active{
-  background-color: #FFD700;
-  color: #000;
+  background-color: #CDB99C;
+  color: #FFF;
 }

@@ -6,14 +6,13 @@ You can apply CSS elements to entire HTML classes. Review Lesson 1.3
 if you need a refresher about how to do this. */
 
 *{
-  background-color: #FFD700;
+  background-color: #CDB99C;
   /*outline: 5px solid red;*/
   font-family: sans-serif;
   margin: 0;
 }
 .header{
-  background-color: #007A46;
-  /*border-radius: 40px;*/
+  background-color: #3399CC;
   padding: 5%;
   text-align: center;
   font-size: 200%;
@@ -23,13 +22,13 @@ if you need a refresher about how to do this. */
 .section{
   display: flex;
   margin: 3% 5% 5%;
-  border: 5px solid #003F73;
-  border-radius: 10px;
+  /*border: 5px solid #003366;
+  border-radius: 10px;*/
 }
 .section div{
   flex-basis: 100%;
   padding: 10px;
-  background-color: #003F73;
+  /*background-color: #003366;*/
 }
 .description{
     text-align: justify;
@@ -45,11 +44,19 @@ if you need a refresher about how to do this. */
   margin: 0;
 }
 .homeImage{
-  opacity: 0.8;
+  opacity: 0.9;
   height: 270px;
 }
 .homeImage:hover{
   opacity: 1;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+.image img{
+  width: inherit;
 }
 
 /* tag sytles */
@@ -63,21 +70,22 @@ h1{
   margin: 0;
 }
 h2{
-  background: #00182C;
+  background: #003366;
   padding: 10px;
   margin: 0 0 10px 0;
   color: #FFF;
   text-align: center;
 }
+
 /*home page headers*/
 h3{
   margin: 0;
-  background-color: #00182C;
+  background-color: #330000;
   padding: 2px 20px;
   font-size: 200%;
   color: #FFF;
 }
 p{
   background-color: inherit;
-  color: #90C0DF;
+  color: #330000;
 }
