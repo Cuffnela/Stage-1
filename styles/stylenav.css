@@ -1,32 +1,30 @@
-/* This stylesheet handles all css for the navigation bar*/
+/* This stylesheet handles all css for the navigation bar
+   One exception is some ul is in main css*/
 .navbar{
   background-color: inherit;
 
 }
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+#nav{
   background-color: #330000;
+  overflow: hidden;
   align-items: stretch;
 }
-li{
+#nav li {
   float: left;
   font-size: 20pt;
   font-weight: bold;
 }
-li a:hover{
+#nav li a:hover{
   background-color: #FFF;
   color: #000;
 }
-li a{
+#nav li a{
   display: block;
   background-color: #330000;
   color: #CDB99C;
   padding: 10px 20px;
 }
-.active{
-  background-color: #CDB99C;
-  color: #FFF;
+#nav .active{
+  background-color: #e5dbcc;
+  color: #;
 }

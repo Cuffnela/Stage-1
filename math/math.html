@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="../styles/stylenav.css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/vegur" type="text/css"/>
   </head>
-</html>
 
 <body>
   <div class="header">
     <h1> Mathematics </h1>
+    <div class="container">
+      <p class="sidebar" id="linkedin"><a href="http://www.linkedin.com/in/laurie-cuffney-55a30638" target="_blank" class="externalLink"><img id="linkedin" src="../images/linkedin.png" alt="link to linkedin"></a></p>
+      <p class="sidebar" id="github"><a href="https://github.com/Cuffnela" target="_blank" class="externalLink"><img id="octocat" src="../images/WhiteCat.png" alt="GitHub link"></a></p>
+      <p class="sidebar" id="blog"><a href="https://cuffnela.wordpress.com/" target="_blank" class="externalLink"><img id="wordpress" src="../images/wordpress.png" alt="blog link"></a></p>
+      <p class="sidebar"><a href="../docs/Resume_Laurie.pdf" id="resume" class="externalLink">Resume</a></p>
+    </div>
   </div>
 
   <div class="navbar">
-    <ul>
+    <ul id="nav">
       <li><a href="../index.html">Home</a></li>
       <li><a href="../programming/programming.html">Programming</a></li>
       <li><a href="../teaching/teaching.html">Teaching</a></li>
@@ -27,24 +32,56 @@
   <div class = "section">
     <div class ="description">
       <h2>Interests</h2>
-      stuff goes here
+      <p>I am interested in a broad range of mathematical topics. Luckily I have the chance
+      to explore some of these topics with young math students over the summer each
+      year at Governor's School. You can never know enough. There is so much information
+      out there and a comparitively short amount of time to absorb it all. I never
+      feel like I know enough about anything and continue to learn everyday. Here
+      are some of the topics that are at the top of my list right now.</p>
+        <ul>
+          <li>Quantum Computing</li>
+          <li>Modeling</li>
+          <li>Differential Equations</li>
+          <li>Numerical Approximation Methods</li>
+          <li>Topology</li>
+        </ul>
     </div>
     <div class="video">
-      Put a video or picture here.
-      <!-- <video width="100%" height="100%" controls>
-        <source src="videos/mathCarol.mp4">
-          Your browser does not support video html.
-      </video>-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/NmW9smtierY" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
   <div class="section">
     <div class ="image">
-      image here? or link to something
+      <img src="images/diploma.jpg" alt="image unailable">
     </div>
     <div class ="description">
       <h2>Master's Thesis</h2>
-      stuff goes here
+      <p><em>A Comparison of Threshold Parameters in Deterministic SIS and SI11I2S Models and
+      Stochastic SIS and SI1I2S Models.</em>(Under the direction of Dr. John Franke.)</p>
+      <p><b>Abstract</b></p>
+      <p>Epidemic models are used to predict disease spread through a population.
+         Accurate prediction of disease spread is important in the management of
+         outbreaks and treatment of disease Deterministic <em>SIS</em> models carry
+         with them the inherent assumption that the infection rate, &alpha;, and
+         the recovery rate, &sigma;, are constant throughout the population and
+         throughout time. In reality this assumption is flawed. There are many factors
+         which can influence the rate at which infection spreads through out a population.
+         Over the course of time environmental changes may cause variation in the
+         rate of infection and ability of infected individuals to recover. To
+        account for variation in infection rate and recovery rate over time we want to add stochasticity
+        into our epidemic model. In this paper we outline a method to introduce stochasticity into an
+        epidemic model where each parameter is drawn from some distribution and attempt to establish
+        a threshold parameter for this model.</p>
+      <p>Investigated the effect of stochastic parameters on the behavior of infectious disease
+      models. Coded MATLAB programs to simulate an SIS model with parameters having
+      various distributions and MATLAB programs using a binary search algorithm to
+      find specific interval endpoints. Established a new threshold parameter utilizing the
+      expected value for the stochastic SIS model resulting in a reliable prediction of long
+      term model behavior.</p>
+      <p><a href="http://repository.lib.ncsu.edu/ir/bitstream/1840.16/9113/1/etd.pdf" target="_blank">
+        Thesis available through the NCSU library.</a>
     </div>
   </div>
 </body>
+</html>
