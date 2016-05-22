@@ -51,6 +51,11 @@ if you need a refresher about how to do this. */
   font-size: large;
   color: #433623;
 }
+#blog{
+  font-weight: bold;
+  font-size: large;
+  color: #433623;
+}
 /*sections are used with in body of pages*/
 .section{
   display: flex;
